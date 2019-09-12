@@ -2,10 +2,10 @@ package dealership;
 
 public class Vehicle 
 {
-	String carName;
-	int carYear;
-	String carColor;
-	double carPrice;
+	private String carName;
+	private int carYear;
+	private String carColor;
+	private double carPrice;
 
 
 	//constructor
@@ -53,12 +53,12 @@ public class Vehicle
 
 
 	//carYear
-	public void setCarYear(String carYear)
+	public void setCarYear(int carYear)
 	{
 		carYear = this.carYear;
 	}
 
-	public String getCarYear()
+	public int getCarYear()
 	{
 		return carYear;
 	}
