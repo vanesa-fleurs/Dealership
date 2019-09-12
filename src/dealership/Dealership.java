@@ -8,9 +8,15 @@ public class Dealership
 	{
 		Customer joe = new Customer("Joe", 3000, "TAMU", 600);
 
-		Customer jane = new Customer();
-		jane.setNameCustomer("Jane");
+		// Customer jane = new Customer();
+		// jane.setNameCustomer("Jane");
 
-		
+		Employee charlie = new Employee("Charlie", 01);
+
+		Vehicle mazda = new Vehicle("Mazda", 1996, "White", 2000);
+
+
+		//joe purchases! 
+		joe.purchase(mazda, true, charlie);
 	}
 }

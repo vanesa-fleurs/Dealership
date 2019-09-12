@@ -30,11 +30,12 @@ public class Customer
 	//METHODS...
 
 	//purchase car method ******************************
-	public void purchase(Vehicle vehicle, Employee employee, boolean finance)
+	public void purchase(Vehicle vehicle, boolean finance, Employee emp)
 	{
 		// employee.handleCustomer(this.customer, true, vehicle );
 
-		System.out.println("Customer purchases car!");
+		// System.out.println("Customer purchases car!");
+		emp.handleCustomer(this, finance, vehicle, creditScore);
 	}
 
 

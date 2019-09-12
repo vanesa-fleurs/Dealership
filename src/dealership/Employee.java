@@ -25,7 +25,7 @@ public class Employee
 
 
 
-	public void handleCustomer(Customer cust, /*double cashOnHand,*/boolean finance, Vehicle v, int creditScore)
+	public void handleCustomer(Customer cust, boolean finance, Vehicle v, int creditScore)
 	{
 		if(finance == true && creditScore >= 700)
 		{
@@ -41,7 +41,7 @@ public class Employee
 		else
 		{
 			//run method, sorry come again later
-			System.out.println("Please come back when you meet both creterias :D ");
+			System.out.println("Please come back when you meet both creterias to purchase " + v + " .");
 		}
 	}
 	//runcontract method
