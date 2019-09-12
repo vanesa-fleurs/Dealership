@@ -75,4 +75,12 @@ public class Vehicle
 		return carName;
 	}
 
+
+	//toString method
+	@Override
+    public String toString() 
+    {
+        return "Vehicle{" + "name='" + carName + '\'' + ", year=" + carYear + ", color=" + carColor + ", price=" + carPrice + '}';
+    }
+
 }

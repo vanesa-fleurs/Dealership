@@ -6,7 +6,7 @@ public class Dealership
 
 	public static void main (String[] args)
 	{
-		Customer joe = new Customer("Joe", 3000, "TAMU", 600);
+		Customer joe = new Customer("Joe", 1000, "TAMU", 600);
 
 		// Customer jane = new Customer();
 		// jane.setNameCustomer("Jane");
@@ -16,7 +16,7 @@ public class Dealership
 		Vehicle mazda = new Vehicle("Mazda", 1996, "White", 2000);
 
 
-		//joe purchases! 
-		joe.purchase(mazda, true, charlie);
+		//if joe wants to purchase! 
+		joe.purchase(mazda, false, charlie); //Please gain a higher credit score!
 	}
 }

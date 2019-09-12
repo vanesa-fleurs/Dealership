@@ -38,6 +38,10 @@ public class Employee
 		{
 			runFinalSale(cust, v);
 		}
+		else if (cust.getCreditScore() < 700)
+		{
+			System.out.println("Please gain a higher credit score.");
+		}
 		else
 		{
 			//run method, sorry come again later
@@ -56,7 +60,7 @@ public class Employee
 	//runFinalSale method
 	public void runFinalSale(Customer cust, Vehicle v)
 	{
-		System.out.println("Alright, no loan neededfor " + v + " for the price of " + v.getCarPrice() + " !");
+		System.out.println("Alright, no loan needed for " + v.getCarName() + " for the price of " + v.getCarPrice() + " !");
 	}
 
 

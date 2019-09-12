@@ -81,7 +81,7 @@ public class Customer
 	public void setCreditScore(int creditScore)
 	{
 		creditScore = this.creditScore;
-		//how to do: if credit score is >=800 give a $1000 bonous! 
+		//how to do: if credit score is >=800 give a $1000 reduction in car price! 
 	}
 
 	public int getCreditScore()
